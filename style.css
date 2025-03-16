@@ -84,7 +84,7 @@ b {
     }
 }
 
-#intro a {
+.infobox {
     background-image: linear-gradient(18deg, #0a5690, #30a5ff);
     padding: 1rem;
     flex: 1;
@@ -92,7 +92,7 @@ b {
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.75);
 }
 
-#intro a:hover {
+.infobox:hover {
     z-index: 99;
     transform: scale(1.2);
 }
